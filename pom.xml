@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>NexusRename</version>
+  <version>1.0-NexusRename</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -59,7 +59,7 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
-        <finalName>MyTrial</finalName>                   
+            <finalName>MyTrial</finalName>
     </configuration>
         </plugin>
         <plugin>
