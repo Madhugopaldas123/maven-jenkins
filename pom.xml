@@ -59,7 +59,7 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
-            <outputFileNameMapping>@{artifactId}@.@{extension}@</outputFileNameMapping>
+            <outputFileNameMapping>@{artifactId}@</outputFileNameMapping>
     </configuration>
         </plugin>
         <plugin>
