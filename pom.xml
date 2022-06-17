@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app</artifactId>
+  <artifactId>maven-jenkins</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-app</name>
+  <name>maven-jenkins</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -59,7 +59,7 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
-            <finalName>MyTrial</finalName>
+            <outputFileNameMapping>@{artifactId}@.@{extension}@</outputFileNameMapping>
     </configuration>
         </plugin>
         <plugin>
